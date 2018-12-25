@@ -1,0 +1,11 @@
+name = str(input("Enter your name:"))
+print("your name is:", name)
+age = int(input("Enter your current age:"))
+print("Your age is:", age)
+age_to_hundred = 100 - age
+print("number of years to reach hundred is:", age_to_hundred)
+print("we are not done yet")
+number = int(input("enter a number to repeat the messages n times:"))
+print(number)
+message = input("Enter a message to be repated n times:")
+print(message * number,"\n")
